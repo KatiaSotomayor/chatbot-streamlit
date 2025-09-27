@@ -37,7 +37,7 @@ pip install -r requirements.txt
 Estructuración del proyecto
 
 chatbot-streamlit/
-- app.py              # Código principal del chatbot en Streamlit
+- chatbot-tech.py              # Código principal del chatbot en Streamlit
 - requirements.txt    # Dependencias necesarias
 - README.md           # Este archivo
 
