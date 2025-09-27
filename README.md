@@ -27,3 +27,22 @@ Instalación y uso
    ```bash
    git clone https://github.com/tuusuario/chatbot-streamlit.git
    cd chatbot-streamlit
+
+
+Instalación de dependencias
+pip install -r requirements.txt
+
+
+
+Estructuración del proyecto
+
+chatbot-streamlit/
+├── app.py              # Código principal del chatbot en Streamlit
+├── requirements.txt    # Dependencias necesarias
+└── README.md           # Este archivo
+
+
+
+Autor
+📧katiasotomayor042@gmail.com
+
