@@ -6,7 +6,7 @@ st.set_page_config(page_title="Chat con Groq", layout="wide")
 st.title("Mi primer chat con Streamlit")
 
 # Modelos disponibles
-modelos = ['llama3-8b-8192', 'llama3-70b-8192', 'mixtral-8x7b-32768']
+modelos = ['llama-3.1-8b-instant', 'llama-3.3-70b-versatile', 'qwen/qwen3-32b']
 modelo_seleccionado = st.selectbox("Elegí un modelo de Groq", modelos)
 
 # Inicialización del estado de la sesión
@@ -79,4 +79,5 @@ if __name__ == "__main__":
     main()
 
 #py -m streamlit run chatbot_tech.py
+
 #poner ese codigo en la terminal para ejecutarlo localmente
